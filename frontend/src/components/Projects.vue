@@ -10,8 +10,8 @@ onMounted(async () => {
             {
                 title: "Profile Web",
                 image:
-                    "public/images/profile.jpg",
-                description: "fffff",
+                    "public/images/mind.jpg",
+                description: "Mind space adalah ruang tenang di kepala tempat ide tumbuh dan pikiran jernih terbentuk",
             },
         ]
         // const response = await
