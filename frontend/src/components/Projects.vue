@@ -27,7 +27,7 @@ onMounted(async () => {
             <div class="grid md:grid-cols-2 gap-12">
                 <div v-for="project in projects" :key="project.title"
                     class="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
-                    <img :src="project.image" alt="Gambar Proyek" class="w-full
+                    <img src="/public/images/mind.jpg" alt="Gambar Proyek" class="w-full
 h-56 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-800 mb-2">{{
