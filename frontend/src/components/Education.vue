@@ -1,14 +1,22 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { ref, onMounted } from 'vue';
-import axios from 'axios';
+// import axios from 'axios';
 import SectionTitle from './SectionTitle.vue';
 const educationHistory = ref([]);
 onMounted(async () => {
     try {
-        const response = await
-            axios.get('http://localhost:3000/api/education');
-        educationHistory.value = response.data;
+        educationHistory.value = [
+            { period: "2019-2023", institution: "MAN 1 KENDARI" },
+            {
+                period: "2023-Sekarang",
+                institution: "UNIVERSITAS AMIKOM YOGYAKARTA",
+                major: "S1 INFORMATIKA",
+            },
+        ];
+        // const response = await
+        //     axios.get('http://localhost:3000/api/education');
+        // educationHistory.value = response.data;
     } catch (error) {
         console.error(error);
     }

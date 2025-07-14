@@ -13,7 +13,7 @@ const projects = [
     title: "Profile Web",
     image:
       "https://tse1.mm.bing.net/th/id/OIP.CgPULHqW1I9YAn0QBzJoNQHaFj?pid=Api&P=0&h=220",
-    description: "askjdhadkjadhakldaodha aiodhadhi9oaodhiahod aoidhoiadoihdhoa",
+    description: "",
   },
 ];
 module.exports = { educationHistory, skills, projects };
